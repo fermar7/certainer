@@ -1,0 +1,11 @@
+authority = "acme-staging-v02.api.letsencrypt.org"
+
+[database]
+path = "path"
+username = "username"
+password = "password"
+
+
+[ports]
+wellknown = 80
+api = 3000

@@ -1,4 +1,4 @@
-package contract
+package infra
 
 import (
 	"github.com/dgrijalva/jwt-go"

@@ -1,4 +1,4 @@
-package contract
+package acmecont
 
 import (
 	"github.com/dgrijalva/jwt-go"

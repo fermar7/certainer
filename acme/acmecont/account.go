@@ -1,4 +1,4 @@
-package contract
+package acmecont
 
 // Account represents an ACME account
 type Account struct {

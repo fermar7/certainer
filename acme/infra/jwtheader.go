@@ -65,14 +65,6 @@ func (header JWTHeader) Validate() error {
 		return fmt.Errorf("Either '%s' or '%s' required", keyJWK, keyKID)
 	}
 
-	if !kidExists {
-		return fmt.Errorf(err, keyKID)
-	}
-
-	if !jwkExists {
-		return fmt.Errorf(err, keyJWK)
-	}
-
 	return nil
 }
 
